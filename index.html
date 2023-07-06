@@ -8,9 +8,9 @@
     </head>
     <body>
         <!-- top navbar -->
-        <nav class="navbar navbar-expand-lg bg-light fixed-top" id="topOfPage">
+        <nav class="navbar navbar-expand-lg bg-light fixed-top">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#topOfPage">Gaige</a>
+              <a class="navbar-brand" href="#webAnchor">Gaige</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -36,8 +36,10 @@
             </div>
         </nav> <!-- end of top navbar-->
 
+        
         <!-- main content-->
         <div class="container-fluid">
+            <!-- website based knowledge -->
             <div class="card mb-3" id="webAnchor">
               <div class="row g-0">
                 <div class="col-md-4">
@@ -63,8 +65,9 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> <!-- end of website knowledge-->
 
+            <!-- programming knowledge -->
             <div class="card mb-3" id="programmingAnchor">
               <div class="row g-0">
                 <div class="col-md-8">
@@ -87,8 +90,9 @@
                   <img src="..." class="img-fluid rounded-end" alt="...">
                 </div>
               </div>
-            </div>
+            </div> <!-- end of programming knowledge -->
 
+            <!-- database knowledge -->
             <div class="card mb-3" id="dbAnchor">
               <div class="row g-0">
                 <div class="col-md-4">
@@ -97,31 +101,44 @@
                 <div class="col-md-8">
                   <div class="card-body">
                     <h5 class="card-title">Database</h5>
-                    <p>placeholder</p>
+                    <p class="card-text">
+                      About 1 year of experience writing SQL, planning out and working with Database Systems using MSSQL, as well as 
+                      interacting with a database from a web page.
+                    </p>
                   </div>
                 </div>
               </div>
-            </div>
+            </div> <!-- end of database knowledge -->
 
+            <!-- ai knowledge -->
             <div class="card mb-3" id="aiAnchor">
               <div class="row g-0">
                 <div class="col-md-8">
                   <div class="card-body">
                     <h5 class="card-title">AI and Machine Learning</h5>
-                    <p class="card-text">placeholder</p>
+                    <p class="card-text">
+                      Created a Discord chat bot to reply to themed questions. If the bot could not answer, it would send the user prompt off to 
+                      ChatGPT (to the davinci-003 engine) and output ChatGPT's response to the user in Discord.
+                    </p>
+                    <p class="card-text">
+                      Limited experience with MLPClassifier, Vectorizers, Lemmas, Regex and Fuzzy Regex. As well as Breadth-first, Depth-first, and
+                      A* search algorithms
+                    </p>
                   </div>
                 </div>
                 <div class="col-md-4">
                   <img src="..." class="img-fluid rounded-end" alt="...">
                 </div>
               </div>
-            </div>
+            </div> <!-- end of ai knowledge -->
 
+            <!-- about me -->
             <div class="container-fluid text-center" id="aboutAnchor">
-              <h3>About Me</h3>
+              <h3 class="card-title">About Me</h3>
               <p>This site is still a work in progress</p>
-            </div>
-        </div> <!-- end of main content-->
+            </div> <!-- end of about me -->
+        </div> <!-- end of main content -->
+
 
         <footer class="container-fluid text-center">
             <hr/>
